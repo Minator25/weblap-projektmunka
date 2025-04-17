@@ -1,0 +1,145 @@
+mind a három html hez kell:
+bootstrapes classok és saját CSS fájl
+
+fő oldal(html1):
+
+html title:(ez a fenti title lesz de elmagyarázom)
+the game zone
+
+cím:
+Játék története
+
+így nézen ki:
+https://www.stash.com/learn/defining-moments-in-video-game-history-a-timeline/#the-era-of-big-budget-gaming
+
+Itt van több tudni való:
+https://en.wikipedia.org/wiki/Video_game
+
+legyen a végén ha szeretne valaki többet tudni a story ról akkor vágd be a csatonát és a 3 fontos videót:
+*Ajánld a csatornát
+
+https://www.youtube.com/@Buki_Dani
+
+tartalmaznia kell:
+-legyen benne lista
+
+-navigációs rendszert
+
+
+
+--------------------
+
+
+
+mellék oldal(html2):
+
+így kell ki néznie vagy hasonló:
+https://www.ign.com/articles/the-best-100-video-games-of-all-time
+
+tartalmaznia kell:
+-kártyák
+
+-Bootstrapes rács rendeszert (row/col)
+
+
+
+----------------------
+
+
+
+mellék oldal(html3):
+-táblázatot
+
+-Bootstrapes rács rendeszert (row/col)
+
+Ennek egy táblázatnak kell lennie ami be mutatja a játék tipusokat.
+
+így kell ki néznie:
+
+Egy példa:
+játék műfaj(adventure)	|   mi az a adventure game?		| és kettő játékot ki választasz (ami népszer de nem kötelező te is be tehetsz játékokat) 
+*Ha meg tenéd a játék nevéhez amikor rá kkatintunk vigyen el ahol le lehet tölteni a és stb nél meg a lenti weblaphoz vigyen el:
+					|							| minecraft,portal,stb -> itt 
+												|Itt a játék letöltéséhez kell meni |
+
+
+Válogas innen:
+
+adventure:
+https://www.gamesradar.com/best-adventure-games/
+
+action:
+https://www.gamesradar.com/best-action-games/
+
+rpg:
+https://www.gamesradar.com/best-rpg-games/
+
+mmorpgs:
+https://www.thegamer.com/best-mmorpgs-ever-wow-runescape/
+
+fps:
+https://www.gamesradar.com/best-fps-games/
+https://www.pcgamer.com/best-fps-games/
+
+thirdperson:
+https://www.thegamer.com/best-thirdperson-shooters-ranked/
+
+strategy:
+https://www.pcgamer.com/the-best-strategy-games/
+
+moba:
+https://www.gamesradar.com/best-moba-games/
+
+survival:
+https://www.pcgamer.com/the-best-survival-games-on-pc/
+
+sandbox:
+https://www.metacritic.com/browse/game/all/sandbox/
+
+horror:
+https://www.ign.com/articles/best-horror-games
+
+puzzle:
+https://www.pcmag.com/picks/the-best-puzzle-games
+
+platformers:
+https://www.pcmag.com/picks/the-best-platformers
+
+simulation:
+https://www.pcgamesn.com/best-pc-simulation-games
+
+racing:
+https://www.pcgamer.com/the-best-racing-games/
+
+card:
+https://www.pcgamesn.com/best-pc-card-games
+
+fight:
+https://www.ign.com/articles/the-10-best-fighting-games
+
+rhythm:
+https://www.pcgamesn.com/best-rhythm-games-pc
+
+visual novels:
+https://www.gamesradar.com/best-visual-novels/
+
+Party Game:
+https://store.steampowered.com/tags/en/Party+Game?l=english
+
+Educational Games:
+https://store.steampowered.com/curator/6860890-Educational-Games/
+
+management:
+https://www.wired.com/gallery/best-management-city-building-games/
+
+roguelikes:
+https://www.gamesradar.com/best-roguelikes-roguelites/
+
+Auto Battlers
+https://www.thegamer.com/best-auto-battlers/
+
+MMO:
+https://www.pcgamer.com/the-best-mmos/
+
+VR:
+https://www.cnet.com/tech/gaming/best-vr-games/

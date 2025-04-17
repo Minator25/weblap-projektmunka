@@ -1,7 +1,7 @@
 mind a három html hez kell:
 bootstrapes classok és saját CSS fájl
 
-fő oldal(html1):
+fő oldal(html1): *jegyzet(hasonlatott használjunk a stash weboldalhoz)
 
 html title:(ez a fenti title lesz de elmagyarázom)
 the game zone
@@ -31,7 +31,7 @@ tartalmaznia kell:
 
 
 
-mellék oldal(html2):
+mellék oldal(html2): *jegyzet(hazsnáljunk kártyákat hozzá)
 
 így kell ki néznie vagy hasonló:
 https://www.ign.com/articles/the-best-100-video-games-of-all-time
@@ -47,7 +47,7 @@ tartalmaznia kell:
 
 
 
-mellék oldal(html3):
+mellék oldal(html3): *jegyzet(kategóriák a játékokhoz és a letölési weboldala)
 -táblázatot
 
 -Bootstrapes rács rendeszert (row/col)

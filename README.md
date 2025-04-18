@@ -19,3 +19,5 @@ legyen e ilyen:https://getbootstrap.com/docs/5.3/components/navbar/#nav
 
 kicsit érdekesek a linkek de működnek.
 A képek külön vannak nem  tudom hogy baj?
+
+A keretet le vetem nekem nem tetszet és márcsak a navbar kell meg beszélnünk és a többi felsorolt dolgot.

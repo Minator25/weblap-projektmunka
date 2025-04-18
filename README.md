@@ -18,3 +18,4 @@ navbar meg váltósztatása?
 legyen e ilyen:https://getbootstrap.com/docs/5.3/components/navbar/#nav
 
 kicsit érdekesek a linkek de működnek.
+A képek külön vannak nem  tudom hogy baj?

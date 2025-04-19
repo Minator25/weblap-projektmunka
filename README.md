@@ -38,6 +38,7 @@ https://getbootstrap.com/docs/5.3/layout/breakpoints/
 
 játék-kategóriák:
 
+hasonló legyen mint a fő oldal.
 
 https://pixune.com/blog/video-game-genres/
 

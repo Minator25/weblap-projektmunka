@@ -1,4 +1,9 @@
 # weblap-projektmunka
+Minden kire változás:
+Meg váltosztatam a neveket mert ékezet nem lehet benne lehet hogy a linkek nem működnek miata.
+A navbarnál beszéljük  meg mert ha másol lennének a likek azok nem lenének jók
+navbarnál vagyok gondba hogy most a kinknél a hover-mél a háttér vagy a szín változon.
+
 Videójáték történe weblap:
 Nem fejeztem be de majd meg lesz.
 A név adásban kéne majd segítened
@@ -21,3 +26,19 @@ kicsit érdekesek a linkek de működnek.
 A képek külön vannak nem  tudom hogy baj?
 
 A keretet le vetem nekem nem tetszet és márcsak a navbar kell meg beszélnünk és a többi felsorolt dolgot.
+
+Még nincs teljesen kész de rajata vagyok.
+
+Addig bele kezdek a mésikba mert a fő oldalt csak dizájnolni kell meg a fenti hibákat ki javítani.
+
+cikket meg kell oldani hogy szebb legyen és szerintem kész
+
+talán lehet javítani ezzel:
+https://getbootstrap.com/docs/5.3/layout/breakpoints/
+
+játék-kategóriák:
+
+
+https://pixune.com/blog/video-game-genres/
+
+https://www.hp.com/us-en/shop/tech-takes/video-game-genres

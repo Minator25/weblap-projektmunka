@@ -13,17 +13,52 @@ nav div a:hover{
     text-align: center !important;
     color: #fff !important;
 }
-/*
-nav div div ul li a:hover{
-    background-color:  #2A7B9B !important;
-    color:   !important;
-    text-decoration: underline !important;
-}*/
+
+.legyenszep{
+    text-align: left;
+}
+
 body{ 
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    padding-top: 56px;
+    padding-top: 54px;
+    height: 100vh;
 }
 h1{
     color: black !important;
     text-align: center;
 }
+.utazas li a:link{
+    color: blue;
+    text-decoration: none;
+}
+.utazas li a:hover{
+    text-decoration: underline !important;
+}
+
+.utazas li a:visited{
+    color: blue !important;
+    text-decoration: none;
+}
+/*
+.kategoriak li{
+
+}
+li{
+    list-style: none;
+}
+/*innen lesz a sok próba*/
+.oldal{
+    position: sticky;  
+    top: 0;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+}
+.resz{
+    padding-top: 56px;
+
+}
+.overflow-auto{
+    overflow-y: auto;
+}
+/*56 187-56= 131*/

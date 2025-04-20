@@ -38,6 +38,8 @@ https://getbootstrap.com/docs/5.3/layout/breakpoints/
 
 játék-kategóriák:
 
+ne feled a linkeket be állítani a másik honlapnál a gögetést az csekold le.
+
 hasonló legyen mint a fő oldal.
 
 https://pixune.com/blog/video-game-genres/

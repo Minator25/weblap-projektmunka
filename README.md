@@ -39,6 +39,7 @@ https://getbootstrap.com/docs/5.3/layout/breakpoints/
 játék-kategóriák:
 
 ne feled a linkeket be állítani a másik honlapnál a gögetést az csekold le.
+Ahogy tetem a másiknál A fő címre tetem az id és sokal jobb amikor felfele görgetsz a lényeg hogy a cím legyen látható.
 
 hasonló legyen mint a fő oldal.
 

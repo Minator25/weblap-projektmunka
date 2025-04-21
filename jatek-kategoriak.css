@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 56px;
 }
 p{
     color: black !important;
@@ -39,10 +40,10 @@ h1{
     color: blue !important;
     text-decoration: none;
 }
-/*
-.kategoriak li{
-
+ul{
+    text-align: center;
 }
+/*
 li{
     list-style: none;
 }
@@ -61,4 +62,16 @@ li{
 .overflow-auto{
     overflow-y: auto;
 }
-/*56 187-56= 131*/
+.utazas li a:link{
+    color: #474b4f;
+    text-decoration: none;
+}
+.utazas li a:hover{
+    background-color: #fEFfff;
+    text-decoration: underline !important;
+}
+
+.utazas li a:visited{
+    color: #474b4f !important;
+    text-decoration: none;
+}

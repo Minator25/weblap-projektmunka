@@ -4,6 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 52px;
 }
 p{
     color: black !important;
@@ -38,15 +39,16 @@ body{
     text-decoration: underline !important;
 }*/
 .utazas li a:link{
-    color: blue;
+    color: #474b4f;
     text-decoration: none;
 }
 .utazas li a:hover{
+    background-color: #fEFfff;
     text-decoration: underline !important;
 }
 
 .utazas li a:visited{
-    color: blue !important;
+    color: #474b4f !important;
     text-decoration: none;
 }
 /*

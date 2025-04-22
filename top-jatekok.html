@@ -2,32 +2,239 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Tóth Attila">
     <link rel="icon" type="image/png" href="gaming-zone-sign-with-controller-vector.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Zone – Top játékok</title>
+    <title>Game Zone  – Top játékok</title>
+    <link rel="stylesheet" href="jatek-kategoriak.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-<body
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+          <a id="foldal" class="nav-link active" href="videojatektört-fo-oldal.html">Videojáték történet</a>
+          <a id="foldal" class="nav-link active" href="top-jatekok.html">Top játékok</a>
+          <a id="foldal" class="nav-link active" href="jatek-kategoriak.html">Játék kategóriák</a>
+          
+          
+          <div class="container-fluid-end">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#oldalsav">
+              Tartalom ⮞
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="videojatektört-fo-oldal.html">Videojáték történet</a> 
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="top-jatekok.html">Top játékok</a>   
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="jatek-kategoriak.html">Játék kategóriák</a> 
-                    </li>
-                </ul>
-            </div>
-        </div>
+          </div>
+          
+        </div> 
+        
     </nav>
-</body>
-</html>
+    <div class="offcanvas offcanvas-end  bg-warning-subtle" tabindex="-1" id="oldalsav">
+      <div class="offcanvas-header">
+      <h5 class="offcanvas-title">🎮 Videojáték műfajok</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body overflow-auto" style="max-height: 80vh;">
+        <ul class="list-unstyled utazas">
+          
+          <li class="mb-2"><a href="#Kalandjatekok">Kalandjátékok</a></li>
+          <li class="mb-2"><a href="#Akciojatekok">Akciójátékok</a></li>
+          <li class="mb-2"><a href="#Sportjatekok">Sportjátékok </a></li>
+          <li class="mb-2"><a href="#Szimulacios-jatekok">Szimulációs játékok</a></li>
+          <li class="mb-2"><a href="#Platformjatekok">Platformjátékok </a></li>
+          <li class="mb-2"><a href="#Szerepjatekok">Szerepjátékok (RPG-k)</a></li>
+          <li class="mb-2"><a href="#First">First Person Shooters</a></li>
+          <li class="mb-2"><a href="#kaland">Akció-kalandjátékok</a></li>
+          <li class="mb-2"><a href="#Harci">Harci játékok</a></li>
+          <li class="mb-2"><a href="#valos">Valós idejű stratégiai (RTS) játékok</a></li>
+          <li class="mb-2"><a href="#Versenyjatekok">Versenyjátékok</a></li>
+          <li class="mb-2"><a href="#Shooter">Shooter Games</a></li>
+          <li class="mb-2"><a href="#Puzzle">Puzzle Játékok</a></li>
+          <li class="mb-2"><a href="#Alkalmi">Alkalmi játékok</a></li>
+          <li class="mb-2"><a href="#Strategiai">Stratégiai játékok</a></li>
+          <li class="mb-2"><a href="#Massively">Massively Multiplayer Online RPG (MMORPG)</a></li>
+          <li class="mb-2"><a href="#Lopakodo">Lopakodó játékok</a></li>
+          <li class="mb-2"><a href="#Party">Party Games</a></li>
+          <li class="mb-2"><a href="#Akcio">Akció RPG-k</a></li>
+          <li class="mb-2"><a href="#Taktikai">Taktikai RPG-k</a></li>
+          <li class="mb-2"><a href="#Tulelo">Túlélő játékok</a></li>
+          <li class="mb-2"><a href="#Battle">Battle Royale játékok</a></li>
+        </ul>
+      </div>
+    </div>
+   
+    <div class="container row " style="background-color: aliceblue; margin: 0 auto; padding-bottom: 10px;" >
+        <div class="container">
+            <h1 style="width: 100%;">A top 100 játékok amit mindenki szeret</h1>
+            <img  class="rounded mx-auto d-block" style="width: 100%;" src="" alt="game room">  <!--legyen kép:-->
+            <div class="col-sm-6 d-flex justify-content-center">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Borderlands 2</h5>
+                  <p class="card-text">Az eredeti Borderland felkeltette a játékosok figyelmét, látszólag a semmiből, a folytatás pedig mindent magába foglalt, ami az eredetit nagyszerűvé tette, és kiterjesztette azt.</p>
+                  <a href="https://store.steampowered.com/app/49520/Borderlands_2/" class="btn btn-primary" target="_blank">letöltése</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Final Fantasy VII</h5>
+                  <p class="card-text">A Final Fantasy VII számos okból mérföldkőnek számít a JRPG-ben, de számos vívmánya mára elveszett az idő és a technológiai fejlődés szele. Ennek ellenére a kora semmit sem változtatott a sorozat legnépszerűbb és legkedveltebb bejegyzéseként, amely a részletes, érzelmekkel vezérelt karakterek széles gárdájának köszönhető, akik az egyik legemlékezetesebb világban utaznak, hogy kikerüljenek Japán fejlesztési színteréről.</p>
+                  <a href="https://store.steampowered.com/app/2909400/FINAL_FANTASY_VII_REBIRTH/" class="btn btn-primary" target="_blank">letöltése</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Assassin's Creed IV: Black Flag</h5>
+                  <p class="card-text">Az AC4 kivételes keveréke a hatalmas nyitott világ felfedezésének és a lopakodó küldetésnek, amely a sorozat gyökereit adta.</p>
+                  <a href="https://store.steampowered.com/app/242050/Assassins_Creed_IV_Black_Flag/" class="btn btn-primary" target="_blank">letöltése</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Burnout 3: Takedown</h5>
+                  <p class="card-text">A Burnout 3: Takedown tagadhatatlan klasszikus. Elődje, a Point of Impact finomhangolta a nagy sebességű versenyzés és a járműpusztítás egyensúlyát, de a Takedown tökéletesítette.</p>
+                  <a href="" class="btn btn-primary" target="_blank">letöltése</a> <!--nincs letöltése:-->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">League of Legends</h5>
+                  <p class="card-text">A League of Legends egy varázslatos helyen létezik, amely valahol az intenzív verseny és a szórakoztató és élvezetes stratégia között fekszik. Bár sok mindent kell elsajátítani, a League of Legends nagyszerű módokkal van felszerelve, amelyek megkönnyítik a MOBA elsajátítását, mégis hihetetlenül nagy kihívást jelent, ahogy a játékosok feljutnak a versenylétrán.</p>
+                  <a href="https://www.leagueoflegends.com/en-us/download/" class="btn btn-primary" target="_blank">letöltése</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Mega Man 3</h5>
+                  <p class="card-text">A Mega Man 3 minden leckét, amit a Capcom megtanult a Mega Man 2-től, kibővítette, finomította és újrakeverte. Miközben új ellenségekkel, például Kígyóemberrel és Mágnesemberrel szembeszállt, finnyás robothősünknek sikerült megtanulnia néhány trükköt, amelyek a jövőbeni játékok alappillérei lesznek.</p>
+                  <a href="" class="btn btn-primary" target="_blank">letöltése</a>  <!--nincs letöltése:-->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Animal Crossing: New Horizons</h5>
+                  <p class="card-text">A Switchen debütált Animal Crossing: New Horizons nagy ugrást tett az életszimulátortól a művészi kifejezés új formája felé. A New Horizons terraformálást és kültéri dekorációt ad a keverékhez, így nem csak otthoni körutazást szervez. És ha szólóban játszol, az még mindig nagyszerű: A szikláktól gazdagságig játékot alaposan átdolgozták, és nagyon szórakoztató: Természeti erőforrásaidat, halakat, bogarakat, fát, virágokat használhatsz szigeted vásárlására vagy készítésére.</p>
+                  <a href="" class="btn btn-primary" target="_blank">letöltése</a> <!--nincs letöltése:-->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Titanfall 2</h5>
+                  <p class="card-text">A Titanfall 2 az egyik legjobb FPS játék, amellyel sokan még nem játszottak. A megkülönböztethetetlen lövöldözős játékok tengerében a Titanfall és annak folytatása valami mást mert csinálni. A múltban más lövöldözők is használtak mecheket, de kiemelkedik a Respawn Entertainments elkötelezettsége a pilóták és a titánok közötti szilárd kapcsolatok kialakítása iránt.</p>
+                  <a href="https://store.steampowered.com/app/1237970/Titanfall_2/" class="btn btn-primary" target="_blank">letöltése</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Tony Hawk's Pro Skater 2</h5>
+                  <p class="card-text">Amikor a Tony Hawk Pro Skater megjelent, olyan volt, mintha még soha senki nem játszott volna. Olyan őrülten intuitívnak tűnt, nagyszerű zenéje volt. Nem volt olyan demográfiai csoport, amelyet ne vonzott volna be a játékok és a gördeszkázás kulturális egyedisége, mint egy bérelt rendőr a gördeszkás videózásba.</p>
+                  <a href="" class="btn btn-primary" target="_blank">letöltése</a> <!--nincs letöltése:-->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+              <div class="card" style="width: 20rem;">
+                <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                <div class="card-body">
+                  <h5 class="card-title">Monster Hunter: World</h5>
+                  <p class="card-text">Ölj meg egy szörnyet, készíts felszerelést az alkatrészeiből, és vadászj egy erősebb szörnyet, úgy hangzik, mint egy játékmenet, amely gyorsan megöregszik, de a Monster Hunter: World megfogta ezt az évtizedes horgot, és tökéletesítette. A World leegyszerűsítette a ciklust, és kellemesebbé tette a szörnyvadászat bevezetését az újoncok számára anélkül, hogy felhígította volna a mély akció-RPG mechanikát, amelyet a régi rajongók a legjobban szerettek.</p>
+                  <a href="https://store.steampowered.com/app/582010/Monster_Hunter_World/" class="btn btn-primary" target="_blank">letöltése</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                  <div class="card-body">
+                    <h5 class="card-title">Divinity: Original Sin 2</h5>
+                    <p class="card-text">A beépített sztori határozottan rengeteg és szinte végtelenül újrajátszható. Az előre elkészített karakterek mindegyikének megvan a saját különleges történetszála, és a dolgok sokféle módja a játékos akcióitól, a háttértörténet-választásoktól, a rassztól és egyebektől függ. Osztálytól vagy nehézségi szinttől függetlenül a DOS2 egy szórakoztató fantáziavilág, amelyben bármitől eltévedhetsz.</p>
+                    <a href="https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/" class="btn btn-primary" target="_blank">letöltése</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                  <div class="card-body">
+                    <h5 class="card-title">Monkey Island 2: LeChuck's Revenge</h5>
+                    <p class="card-text">Amikor megjelent a Monkey Island 2, tudtuk, ki az a Guybrush Threepwood, így tudtuk, mire számíthatunk. Vagy így gondoltuk. Valahogy az alkotó, Ron Gilbert mindenkit megdobott, így a Monkey Island 2 karnevállal végződött, és elgondolkodtunk azon, vajon minden, amit az első két játékban játszottunk, egy fiú képzeletében ment végbe, vagy maga a befejezés egyszerűen egy újabb LeChuck voodoo varázslat. Ettől függetlenül a történet, a viccek és a tempó mind-mind feszesebb lett a második fejezethez, így vitathatatlanul a LucasArts kalandjátékok legjobbja lett.</p>
+                    <a href="https://store.steampowered.com/app/32460/Monkey_Island_2_Special_Edition_LeChucks_Revenge/" class="btn btn-primary" target="_blank">letöltése</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                  <div class="card-body">
+                    <h5 class="card-title">Fallout 2</h5>
+                    <p class="card-text">A Fallout 2 útját törzsemberként elkezdeni, csak egy ágyékkötővel és egy lándzsával a nevemhez, és fokozatosan felküzdeni magam egy erős páncélzatú, Gauss-fegyverrel ellátott gyilkológéphez, fantasztikus és meglepően természetes érzés a fejlődésben – olyan, amilyennel kevés játék volt képes.</p>
+                    <a href="https://store.steampowered.com/app/38410/Fallout_2_A_Post_Nuclear_Role_Playing_Game/" class="btn btn-primary" target="_blank">letöltése</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                  <div class="card-body">
+                    <h5 class="card-title">Thief II: The Metal Age</h5>
+                    <p class="card-text">A Thief II mindent helyesen vett a lopakodó játékokkal kapcsolatban, majd hozzáadott egy csipetnyi steampunkos varázslatot. A Looking Glass Studio egy hihető világot hozott létre, ahol a technológia fejlődött, és a régi világ varázsa futott. A keverékhez hozzáadódott a tökéletes antihős, aki nem is gondolná a világ megmentésének lehetőségét, hacsak nem jelentene több házat, ahonnan lopni lehetne.</p>
+                    <a href="https://store.steampowered.com/app/211740/Thief_II_The_Metal_Age/" class="btn btn-primary" target="_blank">letöltése</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                  <div class="card-body">
+                    <h5 class="card-title">SimCity 2000</h5>
+                    <p class="card-text">A SimCity 2000 egy gyönyörű, vicces, részletes homokozó, amely lehetővé teszi a játékosoknak egy hatalmas, testreszabható térkép irányítását, amelyet saját belátásuk szerint kezelhetnek. Megépítheti a tökéletes metropoliszt, vagy földig égetheti az egészet olyan katasztrófákkal, mint a földrengések és az idegen támadások.</p>
+                    <a href="" class="btn btn-primary" target="_blank">letöltése</a> <!--nincs letöltés:-->
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                  <div class="card-body">
+                    <h5 class="card-title">Inside</h5>
+                    <p class="card-text">Egy Mario-játék mechanikus feladásával és Werner Herzog világnézetével az Inside három ragyogó óráját tölti azzal, hogy a játékost intrikák, örömök és undorok hurkában tartja. A Playdead sivár, gyönyörű puzzle-platformja az elődjére, a Limbóra épít a megfelelő helyeken – helló, színpaletták; viszlát, unalmas gravitációs rejtvények. Egy olyan játékot hagy ránk, amely a fejtörőtől a body horrorig simán kanyarog egészen addig, amíg el nem ér egy olyan véget, amely a játék legjobbjai közé tartozik.</p>
+                    <a href="https://store.steampowered.com/app/304430/INSIDE/" class="btn btn-primary" target="_blank">letöltése</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 20rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap"> <!--kell kép:-->
+                  <div class="card-body">
+                    <h5 class="card-title">Resident Evil 2 (Remake)</h5>
+                    <p class="card-text">A Resident Evil 2 Remake újradefiniálta, mi is lehet a „remake”. A játékban kezdő játékosok számára ez egy aprólékosan kidolgozott túlélő horror élmény volt, amely 2019-ben teljesen összhangban volt a műfajjal, míg a veteránok egy szeretettel kidolgozott nosztalgiadarabot élvezhettek, amely olyan volt, mint az a játék, amelyre emlékeztek 1998-ból.</p>
+                    <a href="https://store.steampowered.com/app/883710/Resident_Evil_2/" class="btn btn-primary" target="_blank">letöltése</a>
+                  </div>
+                </div>
+              </div>
+              
+
+  
